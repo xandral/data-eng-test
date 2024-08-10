@@ -78,6 +78,8 @@ The Airflow pipeline (`extract_and_load_dag`) will download data, load it into P
     2. pip3 install -r requirements.txt
     3. source venv/bin/activate
     4. python table_export.py
+  
+3. To compote metrics follow the above statements to install th eenvironment and run python metrics/compute_metrics.py
 
 
 
