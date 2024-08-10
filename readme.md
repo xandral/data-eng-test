@@ -9,44 +9,38 @@ This project sets up an automated pipeline for downloading, processing, and upda
 
 ## Setup
 
-1. **Clone the repository:**
 
-    ```sh
-    git clone https://github.com/your-repo/common-crawl-pipeline.git
-    cd common-crawl-pipeline
-    ```
-
-2. **Build the Docker image:**
+1. **Build the Docker image:**
 
     ```sh
     docker-compose build
     ```
 
-3. **Setup PostgreSQL:**
+2. **Setup PostgreSQL:**
 
     ```sh
     ./setup/setup_postgres.sh
     ```
 
-4. **Setup Airflow:**
+3. **Setup Airflow:**
 
     ```sh
     ./setup/setup_airflow.sh
     ```
 
-5. **Download Common Crawl segments:**
+4. **Download Common Crawl segments:**
 
     ```sh
     ./setup/download_segments.sh
     ```
 
-6. **Start Airflow:**
+5. **Start Airflow:**
 
     ```sh
     ./setup/start_airflow.sh
     ```
 
-7. **Teardown the environment (optional):**
+6. **Teardown the environment (optional):**
 
     ```sh
     ./setup/teardown.sh
