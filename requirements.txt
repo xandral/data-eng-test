@@ -1,0 +1,6 @@
+apache-airflow
+pyarrow
+psycopg2-binary
+requests
+warcio
+pandas
